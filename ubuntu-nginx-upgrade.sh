@@ -1,3 +1,4 @@
+sudo apt-get update -y
 sudo mkdir -p /backup/nginx
 sudo cp -rvf /etc/nginx/sites-enabled/* /backup/nginx
 sudo cp -rvf /etc/nginx/nginx.conf /backup/nginx
